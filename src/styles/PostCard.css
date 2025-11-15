@@ -1,0 +1,81 @@
+.post-card {
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  max-width: 90vh;
+  width: 800px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Left side of header: avatar + username */
+.post-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 3px solid #ffc800;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.post-text {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 15px;
+  font-size: 1.4rem;
+}
+
+.post-actions span {
+  margin-left: 6px;
+  font-weight: 500;
+}
+
+/* Liked heart turns red */
+.bi-heart-fill.liked {
+  color: red;
+}
+
+/* Edit and Delete icon styles */
+.edit-delete-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-delete-icons i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.edit-delete-icons i:hover {
+  color: #555;
+  opacity: 0.8;
+}
+

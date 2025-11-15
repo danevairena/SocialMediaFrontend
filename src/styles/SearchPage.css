@@ -1,0 +1,81 @@
+.search-page {
+  background-color: #745d1b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Search container */
+.search-container {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  padding: 20px;
+  background-color: #fff;  /* White background for the search card */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow for better visibility */
+}
+
+/* Search input field */
+.search-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Search results container */
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between each search result */
+  margin-top: 10px;
+}
+
+/* Individual search result */
+.user-result {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;  /* White background for each result */
+  transition: background-color 0.3s ease;  /* Smooth transition */
+}
+
+/* Hover effect for search results */
+.user-result:hover {
+  background-color: #f1f1f1;  /* Highlight on hover */
+}
+
+/* Avatar styling: 3px yellow border and circular shape */
+.user-avatar-result {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;  /* Space between avatar and username */
+  border: 3px solid #ffcc00;  /* Yellow border */
+}
+
+/* Username */
+.user-result span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.75rem;
+}
+
+/* No results message */
+.search-results p {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;  /* Center-align the message */
+}

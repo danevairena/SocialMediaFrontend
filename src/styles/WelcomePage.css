@@ -1,0 +1,80 @@
+.welcome-page {
+  display: flex;
+  height: 100vh;
+  background-color: #f1b900; /* yellow background */
+  font-family: Arial, sans-serif;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.logo-image-home {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 0 px;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-card input {
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.sign-in-btn {
+  background-color: #f1b900;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-text {
+  text-align: center;
+  color: #666;
+  margin: 0;
+}
+
+.signup-btn {
+  background-color: #6fd365;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin: -10px 0 10px 0;
+  text-align: left;
+}

@@ -1,0 +1,107 @@
+/* Font and overlay consistency */
+.edit-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.edit-modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  width: 90%;
+  max-width: 600px;
+  min-height: 300px; /* Taller modal */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.edit-modal h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.edit-modal textarea, .edit-modal input {
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+  min-height: 150px;
+  overflow: auto;
+}
+
+.edit-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.save {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.save:hover {
+  background-color: #218838;
+}
+
+.cancel:hover {
+  background-color: #c82333;
+}
+
+.edited.available {
+  outline: 4px solid #4caf50;
+}
+
+.edited.error {
+  outline: 4px solid #e63946;
+}
+
+.error-text {
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+
+.available-text {
+  color: #4caf50;
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+
+.edited-avatar {
+  outline: 5px solid #4caf50;
+  border-radius: 50%;
+}

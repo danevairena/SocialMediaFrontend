@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply Jockey One only to logo */
+.logo-text {
+  font-family: 'Jockey One', sans-serif;
+}

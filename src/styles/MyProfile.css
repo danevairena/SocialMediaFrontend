@@ -1,0 +1,88 @@
+/* Full-page container with background */
+.my-profile-container {
+  background-color: #745d1b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Centered content wrapper */
+.content-wrapper {
+  max-width: 790px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* Profile header box */
+
+.profile-header {
+  max-width: 90vh;
+  width: 800px;
+}
+
+.profile-header-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.my-profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Avatar styling */
+.my-profile-avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #facc15;
+}
+
+.username-bold {
+  font-weight: 700;
+}
+
+.fullname-normal {
+  font-weight: 400;
+}
+/* Bio */
+.profile-bio {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+.edit-profile-icon {
+  margin-left: 20px;
+}
+
+/* Post section wrapper */
+.post-section {
+  margin-top: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* No posts message */
+.no-posts {
+  background-color: white;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Post card */
+.post-card-profile {
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+}
+

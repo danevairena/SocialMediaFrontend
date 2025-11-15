@@ -1,0 +1,129 @@
+.feed-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #ffc800;
+  color: #000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.logo-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  padding-left: 30px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 18px;
+  font-size: 1.5rem;
+  align-items: center;
+  flex-shrink: 0;
+    padding-right: 20px;
+}
+
+.notification-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+.notification-modal {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 500px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  z-index: 1000;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.notification-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.unread-notification {
+  background-color: #fff9d1;
+}
+
+.notification-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid gold;
+}
+
+.view-all-btn {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+}
+
+.view-all-btn:hover {
+  background-color: #f0f0f0;
+  color: gray;
+}
+
+.navbar-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: transform 0.2s ease;
+}
+
+.navbar-avatar:hover {
+  transform: scale(1.05);
+}
