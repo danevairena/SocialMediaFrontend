@@ -7,7 +7,7 @@ https://github.com/danevairena/SocialMediaBackend
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 🔐 Authentication
 - Register a new account  
@@ -16,19 +16,19 @@ https://github.com/danevairena/SocialMediaBackend
 - Logout  
 
 ### 📰 Feed
-- View posts from all users  
-- Like / Unlike posts  
-- Comment on posts  
-- View comments modal  
+- View posts from followed users  
+- Like / Unlike posts   
+- View comments modal
+- Comment on posts 
 
 ### 👤 Profile
-- View your profile  
+- View your profile
+- Edit your profile 
 - View other users' profiles  
-- Profile picture  
-- User bio  
 
 ### ➕ Posts
-- Create a post with image upload  
+- Create a post with image upload
+- Edit your posts
 - Delete your posts  
 
 ### 💬 Messaging
@@ -44,11 +44,10 @@ https://github.com/danevairena/SocialMediaBackend
 ### 👥 Search & Follow System
 - Search for users  
 - Follow / Unfollow  
-- View other profiles  
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### 🔐 Login
 ![Login](./Screenshots/login.png)
@@ -87,7 +86,6 @@ https://github.com/danevairena/SocialMediaBackend
 - **Context API**
 - **Axios**
 - **CSS Modules**
-- **Vite**
 
 ### 🔌 Communication
 - REST API  
