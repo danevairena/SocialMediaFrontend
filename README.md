@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# Social Media App — Frontend  
+A modern, responsive social media web application built with **React**, providing a clean UI and smooth user experience.  
+This is the **frontend** of a full-stack project that includes authentication, posting, commenting, chat, notifications, and more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 **Backend Repository:**  
+https://github.com/danevairena/SocialMediaBackend
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🔐 Authentication
+- Register a new account  
+- Login with validation  
+- Protected routes  
+- Logout  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📰 Feed
+- View posts from all users  
+- Like / Unlike posts  
+- Comment on posts  
+- View comments modal  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 👤 Profile
+- View your profile  
+- View other users' profiles  
+- Profile picture  
+- User bio  
 
-### `npm test`
+### ➕ Posts
+- Create a post with image upload  
+- Delete your posts  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💬 Messaging
+- Real-time chat between users  
+- Conversation view  
+- Message input and history  
 
-### `npm run build`
+### 🔔 Notifications
+- Like notifications  
+- Comment notifications  
+- Follow notifications  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👥 Search & Follow System
+- Search for users  
+- Follow / Unfollow  
+- View other profiles  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Screenshots
 
-### `npm run eject`
+### 🔐 Login
+![Login](./Screenshots/login.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📝 Register
+![Register](./Screenshots/register.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📰 Feed
+![Feed](./Screenshots/feed.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 💬 Messages
+![Messages](./Screenshots/messages.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 👤 User Profile
+![User Profile](./Screenshots/user.png)
 
-## Learn More
+### 🔍 Search
+![Search](./Screenshots/search.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🗨️ Comments
+![Comments](./Screenshots/comments.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔔 Notifications
+![Notifications](./Screenshots/notifications.png)
 
-### Code Splitting
+### 👩‍💻 Me (Profile)
+![Me](./Screenshots/me.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🎨 Frontend
+- **React**
+- **React Router**
+- **Context API**
+- **Axios**
+- **CSS Modules**
+- **Vite**
 
-### Making a Progressive Web App
+### 🔌 Communication
+- REST API  
+- Axios HTTP client  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📁 Folder Structure
+```
+src/
+ ├── api/
+ ├── assets/
+ ├── components/
+ ├── contexts/
+ ├── pages/
+ ├── styles/
+ └── App.jsx
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🔧 Installation & Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/danevairena/SocialMediaFrontend.git
+```
 
-### `npm run build` fails to minify
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3️⃣ Start the development server
+```bash
+npm run dev
+```
+
+---
+
+## 🔗 Backend API
+Full backend code, database schema and REST API documentation:  
+👉 **https://github.com/danevairena/SocialMediaBackend**
